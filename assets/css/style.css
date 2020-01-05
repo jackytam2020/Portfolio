@@ -1,0 +1,128 @@
+
+.logo {
+    padding-left: 15px;
+}
+.thin-text{
+    font-weight: 100;
+}
+#line{
+    border-bottom: 1px solid#0277bd;
+    border-width: 5px;
+    width: 125px;
+
+}
+#right {
+    animation: slide-right 0.5s;
+}
+
+#left {
+    animation: slide-left 0.5s;
+}
+.brand-logo{
+    animation: slide-left 0.5s;
+}
+#about-title{
+    animation: top 0.5s ;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+#image-holder{
+    border-radius: 50%;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border:3px solid white;
+    box-shadow: 0 0 10px #ddd;
+    margin-left: 10px;
+    animation: slide-left 0.5s;
+    background-image: url(../img/pic.jpg);
+}
+#small-line{
+    border-bottom: 1px solid lightgrey;
+    border-width: 1px;
+    width: 120px;
+    margin-top: 20px;
+    animation: slide-left 0.8s
+}
+#name-card{
+    animation: slide-left 1s;
+    background-color: white;
+    box-shadow: 0 0 5px #ddd;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#html-logo{
+    background-image: url(../img/html-5.svg);
+    height: 128px;
+    width: 128px;
+    position: relative;
+}
+#css-logo{
+    background-image: url(../img/css.svg);
+    height: 128px;
+    width: 128px;
+}
+#js-logo{
+    background-image: url(../img/js.svg);
+    height: 128px;
+    width: 128px;
+}
+#react-native-logo{
+    background-image: url(../img/react.svg);
+    height: 128px;
+    width: 128px;
+}
+#center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Linkedin-logo{
+    height: 64px;
+    width: 64px;
+    background-image: url(../img/linkedin.svg);
+}
+#contact-title{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+#screenshot-container{
+    display: flex;
+    height: 580px;
+    width: 1280px;
+    background-color: blue;
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+
+@keyframes slide-left {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes top {
+    from {
+        transform: translateY(-100%)
+    }
+    to {
+        transform: translateY(0);
+    }
+}
