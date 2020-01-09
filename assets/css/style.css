@@ -11,25 +11,27 @@
     width: 125px;
 
 }
-#right {
-    animation: slide-right 0.5s;
-}
 
-#left {
-    animation: slide-left 0.5s;
-}
-.brand-logo{
-    animation: slide-left 0.5s;
+@media (min-width: 993px) {
+    .brand-logo{
+        animation: slide-left 0.5s;
+    }
+    #right {
+        animation: slide-right 0.5s;
+    }
+    
+    #left {
+        animation: slide-left 0.5s;
+    }
 }
 #about-title{
-    animation: top 0.5s ;
     display: flex;
     align-items: center; 
     flex-direction: column;
 }
+
 #image-holder{
     border-radius: 50%;
-    background-color: yellow;
     width: 200px;
     height: 200px;
     border:3px solid white;
@@ -96,8 +98,30 @@
     display: flex;
     height: 580px;
     width: 1280px;
-    background-color: blue;
+    max-width: 1280px;
 }
+.jayu-screenshots{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.materialboxed{
+    padding: 20px;
+}
+.points:before{
+    content:"\2022";
+    margin-right: 0.5em;
+}
+.points {
+    text-indent: -14px; 
+    padding-left: 20px;
+    margin: 0.5;
+}
+#box { 
+    height: 846px;
+}
+
+
 
 @keyframes slide-right {
     from {

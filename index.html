@@ -21,16 +21,16 @@
           <a href="./index.html" class="brand-logo"><span class="logo grey-text text-lighten-2">Jacky Tam</span</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down" id="right">
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact Me</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
             <li><a href="">Resume</a></li>
           </ul>
         </div>
       </nav>
     
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact Me</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
         <li><a href="">Resume</a></li>
       </ul>
 
@@ -80,23 +80,36 @@
                 </div>
                 <div class="col l8" id="right">
                     <h5 style="padding-left: 20px;">Learning Outcomes</h5>
-                    <p style="padding-left: 20px;">The point of this project was to learn how to work effectively in a collaborative environment. This project taught me how to develop using React Native and proper project management skills. Throughout the development of the app I learned how to use UseEffect to execute functions in various situations such as page load or variable changes. I also used hooks such as UseState to change variables and the user interface. We created our own database and wrote the conditions to CRUD items in each table as well as connect the tables from the database to the front end. Lastly, I learned how to import and use external npm packages that were needed to complete the app. This helped me create many module components that were used in various parts of the app. </p>
+                    <p class="points" style="padding-left: 20px;">Worked effectively in a collaborative environment.</p>
+                    <p class="points" style="padding-left: 20px;">Learned and became comfortable with React Native.</p>
+                    <p class="points" style="padding-left: 20px;">Understood how to use UseEffect to execute functions at specified conditions and UseState hooks to change UI.</p>
+                    <p class="points" style="padding-left: 20px;">Connected backend PostgresSQL database to front end to populate data.</p>
                     <h5 style="padding-left: 20px;">Problems Faced</h5>
-                    <p style="padding-left: 20px;">A big problem I faced was that our instructor required us to create functional components instead of class based components as the React Native component is heading towards a similar direction. As a result, looking up for online resources was difficult when I first started developing this app since our program just started learning React Native. With every resource I found online, I had to convert them from class based to functional based in order for recourses to be properly implemented to our app. In addition, our group had a lot of problems displaying the right information from the database. </p>
+                    <p class="points" style="padding-left: 20px;">Converting class based functions to functional components. </p>
+                    <p class="points" style="padding-left: 20px;">Looking for online resources was difficult when our group first started developing as most resources uses class based functions.</p>
+                    <p class="points" style="padding-left: 20px;">Getting used to styling on react native since certain css properties are not compatible. </p>
+                    <p class="points" style="padding-left: 20px;">Displaying the right information from the database.</p>
                     <h5 style="padding-left: 20px;">Solution to Problems</h5>
-                    <p style="padding-left: 20px;">I eventually figured out how to convert class based components by learning how class based functions were written in the first place. I learned that functional components do exactly the same thing except with fewer code and executes tasks more efficiently. Next, most of our problems with our database displaying incorrect information was because they were not being read at the right times. We had no problems creating, updating, or deleting items from our database. We solved our problems by using UseEffect when we need to execute our read functions on page loads or variable changes, and assign read functions to the right buttons that change the UI  </p>
+                    <p class="points" style="padding-left: 20px;">Studied and read how class based functions are written to begin with. </p>
+                    <p class="points" style="padding-left: 20px;">Discovered that the read functions were not being executed at the right time which lead to incorrect information being populated.</p>
+                    <p class="points" style="padding-left: 20px;">Configured with UseEffect and other event listener to execute read functions at the right times.</p>
+                    <p class="points" style="padding-left: 20px;">Read documentations on react native website to understand how to style properly and how to use React Native components.</p>
                 </div>
 
             </div>
             <div class="row">
-                <h4 style="padding-left: 10px;">Screenshot Carousel</h4>
-                  <div class="carousel carousel-slider">
-                    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-                    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-                    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-                    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
-                  </div>
+                <h4 style="padding-left: 10px;">Screenshots</h4>
+                <div class="jayu-screenshots">
+                  <img class="materialboxed" width="269px" src="./assets/img/jayuSC1.png">
+                  <img class="materialboxed" width="269px" src="./assets/img/jayuSC2.png">
+                  <img class="materialboxed" width="269px" src="./assets/img/jayuSC3.png">
+                  <img class="materialboxed" width="269px" src="./assets/img/jayuSC4.png">
+                  <img class="materialboxed" width="269px" src="./assets/img/jayuSC5.png">
+                  <img class="materialboxed" width="269px" src="./assets/img/jayuSC6.png">
+                </div>
             </div>
+
+            <hr>
             
             <div class="row">
                 <div class="col l4 m8 offset-m2 s12">
@@ -117,22 +130,24 @@
                 </div>
                 <div class="col l8" id="right">
                     <h5 style="padding-left: 20px;">Learning Outcomes</h5>
-                    <p style="padding-left: 20px;">Due to not learning about API calls and not adding APIs to my school final project, I wanted to learn how to make API calls using javascript as I knew that I have to know this as a junior web developer. I built this app by referring to a tutorial. It taught me step by step how to properly make an API call and how to hide API keys as some APIs require payment after a certain amount of calls</p>
+                    <p style="padding-left: 20px;">Due to not learning about API calls and not adding APIs to my school final project, I wanted to learn how to make API calls using javascript as I knew that I have to know this as a junior web developer. I built this app by referring to a tutorial. It taught me step by step how to properly make an API call and how to hide API keys as some APIs require payment after a certain amount of calls.</p>
                     <h5 style="padding-left: 20px;">Problems Faced</h5>
-                    <p style="padding-left: 20px;">I had some minor problems of creating my node server as well as connecting the API properly to my script </p>
+                    <p style="padding-left: 20px;">I had some minor problems of creating my node server as well as connecting the API properly to my script. </p>
                     <h5 style="padding-left: 20px;">Solution to Problems</h5>
-                    <p style="padding-left: 20px;">A solved my server problems by just making sure all my syntax were correct. I had a some syntax error that caused the server to crash. I also had to reread the documentation of the DarkSky API and the google API to understand why my APIs were not connected properly</p>
+                    <p style="padding-left: 20px;">A solved my server problems by just making sure all my syntax were correct. I had a some syntax error that caused the server to crash. I also had to reread the documentation of the DarkSky API and the google API to understand why my APIs were not connected properly.</p>
                 </div>
             </div>
 
             <div class="row">
-              <h4 style="padding-left: 10px;">Screenshot Carousel</h4>
-                <div class="carousel carousel-slider">
+              <h4 style="padding-left: 10px;">Screenshots</h4>
+                <div class="carousel carousel-slider" id="box">
                   <a class="carousel-item" href="#one!"><img src="./assets/img/WeatherSC1.png"></a>
                   <a class="carousel-item" href="#one!"><img src="./assets/img/WeatherSC2.png"></a>
                   <a class="carousel-item" href="#one!"><img src="./assets/img/WeatherSC3.png"></a>
                 </div>
           </div>
+
+          <hr>
 
             <div class="row">
                 <div class="col l4 m8 offset-m2 s12">
@@ -155,17 +170,26 @@
                 </div>
                 <div class="col l8" id="right">
                     <h5 style="padding-left: 20px;">Learning Outcomes</h5>
-                    <p style="padding-left: 20px;">As a student focusing primarily on development, I wrote the code that made the app flow from one page to another while displaying correct information. Since we hadn't learned about the back end yet at this point of our program, I learned how to properly manage JSON objects to populate the front end html elements. This project helped me solidify my knowledge on scripting such has making functions, passing values into functions as parameters, using if else conditions, calling functions, proper styling, UI changes from Javascript, and manipulating arrays and objects. </p>
+                    <p class="points" style="padding-left: 20px;">Utilize skills learned from courses such as design, html, css, and javascript. </p>
+                    <p class="points" style="padding-left: 20px;">Solidify knowledge on scripting.</p>
+                    <p class="points" style="padding-left: 20px;">Being comfortable with making functions, passing values into functions as parameters, using if else conditions, calling functions, proper styling, UI changes from Javascript, and manipulating arrays and objects.</p>
+                    <p class="points" style="padding-left: 20px;">CRUD (create, read, update, delete) object items.</p>
                     <h5 style="padding-left: 20px;">Problems Faced</h5>
-                    <p style="padding-left: 20px;">Knowing how to manipulate objects and array was the most problematic issue I had when trying to make this app work. The objects needed to be manipulated as the user clicks through each page since it contains filters that constrict that search result. The right movies had to be displayed when the users choose the range date and award categories. In addition, the app had very large JSON objects so it made it confusing at times to manage. </p>
+                    <p class="points" style="padding-left: 20px;">Manipulate objects and object items by CRUD. </p>
+                    <p class="points" style="padding-left: 20px;">Wrong movies were being displayed after filter constraints were inputted by the users.</p>
+                    <p class="points" style="padding-left: 20px;">App did not have a responsive layout prior to the final version.</p>
+                    <p class="points" style="padding-left: 20px;">Had very large JSON objects which made it confusing at times to manage.</p>
                     <h5 style="padding-left: 20px;">Solution to Problems</h5>
-                    <p style="padding-left: 20px;"> I made some extra functions that helped me display the right movies. Filter was a powerful javascript function that made a new array from me according to the conditions that I assign it as such as year won and categories selected. Movies that did not meet these conditions were not included in the new array. I also wrote another function that pushed and popped items where if the users want to return back to the original screen for new conditions, I had to return the array into its original state that included all the movies. Made sure to also comment wherever i could to help ease with the confusion since the app had very big objects. </p>
+                    <p class="points" style="padding-left: 20px;">Made extra functions that helped me display the right movies according to filter constraints.  </p>
+                    <p class="points" style="padding-left: 20px;">Used the filter function that made a new array from me according to the conditions that I assign it as such as year won and categories selected.</p>
+                    <p class="points" style="padding-left: 20px;">Wrote another function that pushed and popped items where if the users want to return back to the original screen for new conditions.</p>
+                    <p class="points" style="padding-left: 20px;">Revisited the html structure and css properties to add responsiveness to the app.</p>
                 </div>
             </div>
 
             <div class="row">
-              <h4 style="padding-left: 10px;">Screenshot Carousel</h4>
-                <div class="carousel carousel-slider">
+              <h4 style="padding-left: 10px;">Screenshots</h4>
+                <div class="carousel carousel-slider" id="box">
                   <a class="carousel-item" href="#one!"><img src="./assets/img/NomSC1.png"></a>
                   <a class="carousel-item" href="#one!"><img src="./assets/img/NomSC2.png"></a>
                   <a class="carousel-item" href="#one!"><img src="./assets/img/NomSC3.png"></a>
@@ -173,6 +197,8 @@
               
                 </div>
           </div>
+
+          <hr>
 
             <div class="row">
                 <div class="col l4 m8 offset-m2 s12">
@@ -195,7 +221,9 @@
                 </div>
                 <div class="col l8" id="right">
                     <h5 style="padding-left: 20px;">Learning Outcomes</h5>
-                    <p style="padding-left: 20px;">Understood how to handle GET and POST requests while writing php functions. In addition, I also learned how to properly set up and use a database. Added SQL queries within my php code to pull data from the MySQL database when a POST or GET request was made.  </p>
+                    <p class="points" style="padding-left: 20px;">Understand how to handle GET and POST requests while writing php functions. </p>
+                    <p class="points" style="padding-left: 20px;">Create and connect a MySQL database.</p>
+                    <p class="points" style="padding-left: 20px;">Write and implement SQL queries to php files to pull data from MySQL database.</p>
                     <h5 style="padding-left: 20px;">Problems Faced</h5>
                     <p style="padding-left: 20px;">Since the app had multiple php files, I was confused at first as to where I need to take or pass values from. As a result, there were many occasions where I got errors in the console that said variables were undefined.   </p>
                     <h5 style="padding-left: 20px;">Solution to Problems</h5>
@@ -204,11 +232,13 @@
             </div>
 
             <div class="row">
-              <h4 style="padding-left: 10px;">Screenshot</h4>
-                <div id="screenshot-container">
-                  <img class="activator" src="./assets/img/Screenshot_SQL.png">
+              <h4 style="padding-left: 10px;">Screenshots</h4>
+                <div class="carousel carousel-slider">
+                  <a class="carousel-item" href="#one!"><img src="./assets/img/Screenshot_SQL.png"></a>
                 </div>
-          </div>
+            </div>
+
+            <hr>
 
             <div class="row">
               <div class="col l4 m8 offset-m2 s12">
@@ -231,7 +261,7 @@
                   <h5 style="padding-left: 20px;">Learning Outcomes</h5>
                   <p style="padding-left: 20px;">I learned how to use the framework library of Materialize Css. Since I never learned how to use a framework css library in my program, I felt that I was necessary that I learned this on my own. This made styling extremely fast compared to only using bare css. I felt that this was a necessary skill in any junior web developer position. </p>
                   <h5 style="padding-left: 20px;">Problems Faced</h5>
-                  <p style="padding-left: 20px;"> Working with the positioning of elements was an issue as well as knowing where to add my own custom css </p>
+                  <p style="padding-left: 20px;"> Working with the positioning of elements was an issue as well as knowing where to add my own custom css. </p>
                   <h5 style="padding-left: 20px;">Solution to Problems</h5>
                   <p style="padding-left: 20px;">Simply reading the documentation of Materialize Css helped me understand exactly how the framework works. Some items from the library needs to be initialized first in order for it to work.  </p>
               </div>

@@ -4,9 +4,16 @@ $(document).ready(function(){
 
  
   $('.carousel.carousel-slider').carousel({
-    fullWidth: true
+    fullWidth: true,
+    indicators: true
   });
 
   $(document).ready(function(){
     $('.sidenav').sidenav();
   });
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+
+ 
