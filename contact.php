@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -54,16 +55,16 @@
           <form class="col s12" action="contact-form.php" method="post" enctype="text/plain">
             <div class="row">
               <div class="input-field col s6" >
-                <input placeholder="First Name" id="first_name" type="text" class="validate">
+                <input placeholder="First Name" name="first_name" type="text" class="validate">
               </div>
               <div class="input-field col s6">
-                <input id="last_name" type="text" class="validate">
+                <input name="last_name" type="text" class="validate">
                 <label for="last_name">Last Name</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input id="email" type="email" class="validate">
+                <input name="email" type="email" class="validate">
                 <label for="email">Email</label>
               </div>
             </div>
@@ -71,7 +72,7 @@
               <form class="col s12">
                 <div class="row">
                   <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <textarea name="message" class="materialize-textarea"></textarea>
                     <label for="textarea1">Your Message</label>
                   </div>
                 </div>
