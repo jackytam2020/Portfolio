@@ -121,7 +121,18 @@
     height: 846px;
 }
 
+.card-image {
+    height: 370px;
+}
 
+.next-button {
+    background-image: url(../img/next.svg);
+    width: 32px;
+    height: 32px;
+}
+.next-button:hover {
+    cursor: pointer;
+}
 
 @keyframes slide-right {
     from {
