@@ -1,0 +1,153 @@
+@media screen and (max-width: 993px){ 
+    .container {
+        width: 90%;
+        position: relative;
+        top: 10%;
+    }
+    .top-section{
+        width: 100vw;
+        height: 800px;
+        background-color: white;
+        box-shadow: 0 8px 6px -6px black;
+    }
+    #line{
+        width: 100%;
+    }
+    .item-titles {
+        width: 100%;
+        display: flex; 
+        justify-content: space-between;
+    }
+    .item-details{
+        margin: 0;
+        font-weight: 300;
+        font-size: 15pt;
+    }
+    .thumbnail-holder{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 10%;
+    }
+    .jayu-screenshots{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .materialboxed{
+        padding: 20px;
+    }
+    .reflection-title{
+        font-weight: 500;
+    }
+    .logo {
+        padding-left: 15px;
+    }
+    .points {
+        text-indent: -14px; 
+        padding-left: 20px;
+        margin: 0.5;
+    }
+    .points:before{
+        content:"\2022";
+        margin-right: 0.5em;
+    }
+}
+@media screen and (min-width: 993px){ 
+    .container {
+        width: 60%;
+        position: relative;
+        top: 10%;
+    }
+    #line{
+        width: 80%;
+    }
+    .top-section{
+        width: 100vw;
+        height: 450px;
+        background-color: white;
+        box-shadow: 0 8px 6px -6px black;
+    }
+    .item-titles {
+        width: 80%;
+        display: flex; 
+        justify-content: space-between;
+    }
+    .item-details{
+        margin: 0;
+        font-weight: 300;
+        font-size: 15pt;
+    }
+    .item-description{
+        width: 80%;
+        font-weight: 350;
+    }
+    .bottom-section{
+        position: relative;
+        margin-top: 50px;
+    }
+    .jayu-screenshots{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .materialboxed{
+        padding: 20px;
+    }
+    .reflection-title{
+        font-weight: 500;
+    }
+    .logo {
+        padding-left: 15px;
+    }
+    .brand-logo{
+        animation: slide-left .8s;
+    }
+    #right {
+        animation: slide-right .8s;
+    }
+    
+    #left {
+        animation: slide-left .8s;
+    }
+    .points:before{
+        content:"\2022";
+        margin-right: 0.5em;
+    }
+    .points {
+        text-indent: -14px; 
+        padding-left: 20px;
+        margin: 0.5;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+
+@keyframes slide-left {
+    from {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes top {
+    from {
+        transform: translateY(-100%)
+    }
+    to {
+        transform: translateY(0);
+    }
+}

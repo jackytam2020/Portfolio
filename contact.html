@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,6 +12,8 @@
     
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
   </head>
 
   <body style="background-color: #f2f2f2;">
@@ -46,58 +49,36 @@
         <li><a href="">Resume</a></li>
       </ul>
 
-      
     <!-- About me section -->
+    <div class="container">
+      <div class="row">
+          <div id="contact-title">
+              <h4 style="font-weight: 500; color: #0277bd; margin-top: 50px;">Contact</h4>
+              <div id="line"></div>
+          </div>
+      </div>
+      
+      <div class="row">
+        <div id="contact-title">
+            <h5>Let's work together!</h5>
+        </div>
+      </div>
+      
       <div class="container">
-        <div class="row">
-            <div id="about-title">
-                <h4 style="font-weight: 500; color: #0277bd; margin-top: 50px;">About me</h4>
-                <div id="line"></div>
-            </div>
-        </div>
-    
-    
-        <div class="row" style="margin-top: 60px;">
-            <div class="col l5 m6 s12" id="center">
-               <img id="image-holder">
-               <div id="small-line"></div>
-                <div id="name-card">
-                  <h4 style="font-weight: 500;">Jacky Tam</h4>
-                </div>
-            </div>
-
-            <div class="col l6 m6 s12" id="right">
-                <p style="font-size: 14pt; font-weight: 300;">I'm a Front-End-Developer and I started my journey in this industry at the British Columbia institute of Technology. I'm passionate in working in a team environment to create mobile and web applications that improves the lives of everyday people.</p>
-                <p>Let's work together and make something amazing!</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div id="about-title">
-                <h4 style="font-weight: 500; color: #0277bd; margin-top: 50px;">Skills</h4>
-                <div id="line"></div>
-            </div>
-        </div>
-
-        <div class="row">
-              <div class="col l5">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              </div>
-              <div class="col l7" style="justify-content: flex-end;">
-                  <div class="col l3 s6" id="center">
+          <div id="contact-container">
+              <div class="row">
+                    <div class="col l3 s6" id="center">
                       <!-- Icons made by Pixel perfect on flaticon.com -->
-                      <div id="html-logo"></div>
-                      <h5>HTML 5</h5>
+                        <a id="gmail-logo" data-clipboard-text="jackytam2020@gmail.com"></a>
+                        <span id="toast"> Copied </span>
                   </div>
                   <div class="col l3 s6" id="center">
                       <!-- Icons made by Pixel perfect on flaticon.com -->
-                    <div id="css-logo"></div>
-                    <h5>CSS 3</h5>
+                    <div id="Linkedin-logo" onclick="location.href='https://www.linkedin.com/in/jackytam1996/';"></div>
                   </div>
                   <div class="col l3 s6" id="center">
                       <!-- Javascript icon made by icon8 on icons8.com -->
-                    <div id="js-logo"></div>
-                    <h5>JavaScript</h5>
+                    <div id="github-logo" onclick="location.href='https://github.com/jackytam2020/';"></div>
                   </div>
                   <div class="col l3 s6" id="center">
                       <!-- React Native icon made by icon8 on icons8.com -->
@@ -105,17 +86,13 @@
                       <h5>React Native</h5>
                   </div>
               </div>
-            </div>  
-        </div>
-
-          <div class="row">
-            <div class="center-align">
-                <a class="waves-effect waves-light btn red darken-1" href="./about.html">My Resume</a>
             </div>
-          </div>
+        </div>
       </div>
-    
-      
+
+   
+    </div>
+
  
 
     <!--Import Jquery-->

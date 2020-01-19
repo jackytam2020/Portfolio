@@ -14,14 +14,14 @@
 
 @media (min-width: 993px) {
     .brand-logo{
-        animation: slide-left 0.5s;
+        animation: slide-left 0.8s;
     }
     #right {
-        animation: slide-right 0.5s;
+        animation: slide-right 0.8s;
     }
     
     #left {
-        animation: slide-left 0.5s;
+        animation: slide-left 0.8s;
     }
 }
 #about-title{
@@ -85,9 +85,22 @@
     flex-direction: column;
 }
 #Linkedin-logo{
-    height: 64px;
-    width: 64px;
+    height: 84px;
+    width: 84px;
     background-image: url(../img/linkedin.svg);
+    /*Icons made by Pixel perfect on flaticon.com */
+}
+#gmail-logo{
+    height: 84px;
+    width: 84px;
+    background-image: url(../img/gmail.svg);
+    /*Icons made by Pixel perfect on flaticon.com */
+}
+#github-logo{
+    height: 84px;
+    width: 84px;
+    background-image: url(../img/github.svg);
+    /*Icons made by Pixel perfect on flaticon.com */
 }
 #contact-title{
     display: flex;
@@ -124,14 +137,33 @@
 .card-image {
     height: 370px;
 }
-
+.btn {
+    background-color: #f2f2f2;
+    border: none;
+}
+#toast {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 70px;
+    height: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 .next-button {
+    /*Icons made by Pixel perfect on flaticon.com */
     background-image: url(../img/next.svg);
     width: 32px;
     height: 32px;
 }
 .next-button:hover {
     cursor: pointer;
+}
+#contact-container{
+    width: 100%;
+    margin-top: 15%;
 }
 
 @keyframes slide-right {
