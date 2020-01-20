@@ -133,7 +133,9 @@
 #box { 
     height: 846px;
 }
-
+.card {
+    max-height: 550px;
+}
 .card-image {
     height: 370px;
 }
