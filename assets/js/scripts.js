@@ -34,3 +34,19 @@ $(document).ready(function(){
      console.error('Action:', e.action);
      console.error('Trigger:', e.trigger);
  });
+
+ 
+ var footer_clipboard = new ClipboardJS('#footer-gmail-logo');
+
+ footer_clipboard.on('success', function(e) {
+     footer_toast.style.display = "flex"
+     console.info('Text:', e.text);
+     console.info('Trigger:', e.trigger);
+ 
+     e.clearSelection();
+ });
+ 
+ footer_clipboard.on('error', function(e) {
+     console.error('Action:', e.action);
+     console.error('Trigger:', e.trigger);
+ });
